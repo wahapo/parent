@@ -1,6 +1,6 @@
 childPipelines:
   scmUrls:
-    - git@github.com:wahapo/child.git
+    - git@github.com:wahapo/child.git#dummy
 
 jobs:
   main:
