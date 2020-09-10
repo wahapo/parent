@@ -9,7 +9,7 @@ jobs:
     steps:
       - ls: ls
   from-child-trigger:
-    requires: [ ~sd@4:child-trigger ]
+    requires: [ ~sd@4:main ]
     image: node:8
     steps:
       - ls: ls
