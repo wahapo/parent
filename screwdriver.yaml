@@ -8,3 +8,8 @@ jobs:
     image: node:8
     steps:
       - ls: ls
+  from-child-trigger:
+    requires: [ ~sd@4:child-trigger ]
+    image: node:8
+    steps:
+      - ls: ls
