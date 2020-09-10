@@ -13,3 +13,8 @@ jobs:
     image: node:8
     steps:
       - ls: ls
+  main2:
+    requires: [ ~main ]
+    image: node:8
+    steps:
+      - ls: ls
