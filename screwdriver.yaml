@@ -8,13 +8,13 @@ jobs:
     image: node:8
     steps:
       - ls: ls
-  from-child-trigger:
-    requires: [ ~sd@4:main ]
+  main2:
+    requires: [ ~main ]
     image: node:8
     steps:
       - ls: ls
-  main2:
-    requires: [ ~main ]
+  from-external-trigger:
+    requires: [ ~sd@4:main-2 ]
     image: node:8
     steps:
       - ls: ls
